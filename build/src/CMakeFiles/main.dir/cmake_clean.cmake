@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Controller.cpp.o"
   "CMakeFiles/main.dir/Helper.cpp.o"
   "CMakeFiles/main.dir/Block.cpp.o"
+  "CMakeFiles/main.dir/sha256.cpp.o"
   "main.pdb"
   "main"
 )

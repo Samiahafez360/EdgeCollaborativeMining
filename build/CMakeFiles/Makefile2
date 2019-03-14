@@ -166,7 +166,7 @@ depends/libsnark/CMakeFiles/check.dir/all: depends/libsnark/libsnark/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 depends/libsnark/CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/CMakeFiles/check.dir/rule
@@ -335,12 +335,12 @@ depends/libsnark/depends/gtest/googlemock/preinstall: depends/libsnark/depends/g
 depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/all: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/build.make depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/build.make depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=28 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target gmock"
 .PHONY : depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock.dir/rule
@@ -368,7 +368,7 @@ depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/all: depends
 depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/all: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=28 "Built target gmock_main"
 .PHONY : depends/libsnark/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1503,12 +1503,12 @@ depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/a
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target zk_proof_systems_r1cs_sp_ppzkpcd_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=95 "Built target zk_proof_systems_r1cs_sp_ppzkpcd_test"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule
@@ -1635,7 +1635,7 @@ depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/all: depends/
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=36 "Built target profile_r1cs_gg_ppzksnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=37 "Built target profile_r1cs_gg_ppzksnark"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1803,12 +1803,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/all: depends/li
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=37 "Built target profile_r1cs_mp_ppzkpcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target profile_r1cs_mp_ppzkpcd"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule
@@ -1837,12 +1837,12 @@ depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/all: depends/libsnar
 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target test_sha256_gadget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=90 "Built target test_sha256_gadget"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule
@@ -1939,12 +1939,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/all: depends/lib
 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target profile_bacs_ppzksnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=36 "Built target profile_bacs_ppzksnark"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule
@@ -2039,12 +2039,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/all: depends/lib
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=44 "Built target profile_tbcs_ppzksnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=44,45 "Built target profile_tbcs_ppzksnark"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule
@@ -2275,12 +2275,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/all: depends/lib
 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=45 "Built target profile_uscs_ppzksnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target profile_uscs_ppzksnark"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule
@@ -2445,12 +2445,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/all: depends/libsna
 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target profile_ram_zksnark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=42 "Built target profile_ram_zksnark"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule
@@ -2831,12 +2831,12 @@ depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/all
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=95 "Built target zk_proof_systems_ram_ppzksnark_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target zk_proof_systems_ram_ppzksnark_test"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule
@@ -3071,12 +3071,12 @@ depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/al
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=90 "Built target zk_proof_systems_bacs_ppzksnark_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target zk_proof_systems_bacs_ppzksnark_test"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule
@@ -3173,12 +3173,12 @@ depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/all: depends
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/all: depends/libsnark/libsnark/CMakeFiles/snark.dir/all
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/depend
 	$(MAKE) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=42 "Built target profile_routing_algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num= "Built target profile_routing_algorithms"
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule

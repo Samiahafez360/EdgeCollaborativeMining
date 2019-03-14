@@ -13,20 +13,23 @@ using namespace std;
 
 class Block {
 public:
+	uint32_t _nNonce;
     string sHash;
     string sPrevHash;
 
     Block(uint32_t nIndexIn, const string &sDataIn);
 
     void MineBlock(uint32_t nDifficulty);
-    static Block prepareGenesisBlock();
-private:
-    uint32_t _nIndex;
-    uint32_t _nNonce;
+	 string _CalculateHash() const;
+	 uint32_t _nIndex;
+    
     string _sData;
     time_t _tTime;
 
-    string _CalculateHash() const;
+    //static void prepareGenesisBlock(Block gen);
+private:
+    
+   
 };
 
 #endif //TESTCHAIN_BLOCK_H

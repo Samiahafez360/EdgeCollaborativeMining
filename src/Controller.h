@@ -2,38 +2,43 @@
 // Created by Samia Hafez on 9/3/2019
 //
 
-#ifndef COLCHAIN_EDGE_H
-#define COLCHAIN_EDGE_H
-
 #include <cstdint>
 #include <vector>
+#include <thread>
 #include "Helper.h"
 #include "Block.h"
+#include "ControllerNetworkUtilities.hpp"
 
+#include "Helper.h"
 
 using namespace std;
 
 class Controller {
 public:
     Controller();
-
-    void AddBlock(Block bNew);
+	Controller(int initial);
+    void AddBlock();
 
     int getnofhelpers();
-    void addHelper(Helper h);
-
-
+   
     void startMining();
-
+	void zkp_startMining();
+	
+	void updateHelpers();
+	vector<Helper> helpers;
 
 private:
+	void sendrangetohelper(unsigned id, uint32_t indrange );
+    void zkp_sendrangetohelper(unsigned id, uint32_t indrange );
+    
+	ControllerNetworkUtilities* netutils;
     uint32_t _nDifficulty;
     vector<Block> _vChain;
-    vector<Helper> helpers;
+    
+	vector<int> responses;
+	vector<thread> helperths;
     Block _GetLastBlock() const;
+	Block* currentblock;
     void populatechain();
-    void updateHelpers();
-
+    std::chrono::system_clock::time_point starttime;
 };
-
-#endif //TESTCHAIN_BLOCKCHAIN_H

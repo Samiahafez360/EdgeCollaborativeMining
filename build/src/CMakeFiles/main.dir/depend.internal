@@ -4,6 +4,7 @@
 src/CMakeFiles/main.dir/Block.cpp.o
  /home/samia/libsnarktut/src/Block.cpp
  /home/samia/libsnarktut/src/Block.h
+ /home/samia/libsnarktut/src/sha256.h
 src/CMakeFiles/main.dir/Controller.cpp.o
  ../depends/libsnark/depends/ate-pairing/include/bn.h
  ../depends/libsnark/depends/ate-pairing/include/zm.h
@@ -141,6 +142,7 @@ src/CMakeFiles/main.dir/Controller.cpp.o
  /home/samia/libsnarktut/src/Block.h
  /home/samia/libsnarktut/src/Controller.cpp
  /home/samia/libsnarktut/src/Controller.h
+ /home/samia/libsnarktut/src/ControllerNetworkUtilities.hpp
  /home/samia/libsnarktut/src/Helper.h
  /usr/include/x86_64-linux-gnu/gmp.h
 src/CMakeFiles/main.dir/Helper.cpp.o
@@ -277,8 +279,10 @@ src/CMakeFiles/main.dir/Helper.cpp.o
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
+ /home/samia/libsnarktut/src/Block.h
  /home/samia/libsnarktut/src/Helper.cpp
  /home/samia/libsnarktut/src/Helper.h
+ /home/samia/libsnarktut/src/sha256.h
  /usr/include/x86_64-linux-gnu/gmp.h
 src/CMakeFiles/main.dir/main.cpp.o
  ../depends/libsnark/depends/ate-pairing/include/bn.h
@@ -414,5 +418,12 @@ src/CMakeFiles/main.dir/main.cpp.o
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
  ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
+ /home/samia/libsnarktut/src/Block.h
+ /home/samia/libsnarktut/src/Controller.h
+ /home/samia/libsnarktut/src/ControllerNetworkUtilities.hpp
+ /home/samia/libsnarktut/src/Helper.h
  /home/samia/libsnarktut/src/main.cpp
  /usr/include/x86_64-linux-gnu/gmp.h
+src/CMakeFiles/main.dir/sha256.cpp.o
+ /home/samia/libsnarktut/src/sha256.cpp
+ /home/samia/libsnarktut/src/sha256.h

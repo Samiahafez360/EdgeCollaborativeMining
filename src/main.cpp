@@ -12,7 +12,12 @@
 #include <libsnark/gadgetlib1/pb_variable.hpp>
 #include <libsnark/gadgetlib1/protoboard.hpp>
 #include <iostream>
+#include "Controller.h"
+#include <string>
+#include <chrono>
+#include <ctime>    
 
+using namespace std;
 
 using namespace libsnark;
 
@@ -37,14 +42,19 @@ void test_one_input() {
     const libff::bit_vector input_bv = libff::int_list_to_bits({0x6c6c6568, 0x6f77206f, 0x00646c72, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000}, 32);
     input.generate_r1cs_witness(input_bv);
     
-    std::cout<<"starting to witness";
-    sha256_gadget.generate_r1cs_witness();
+    //original place of next two lines
+	//std::cout<<"starting to witness";
+    //sha256_gadget.generate_r1cs_witness();
 
     const auto constraint_system = pb.get_constraint_system();
 
     // Create keypair
     auto keypair = r1cs_ppzksnark_generator<default_r1cs_ppzksnark_pp>(constraint_system);
 
+	//new place of ext two lines
+	std::cout<<"starting to witness";
+    sha256_gadget.generate_r1cs_witness();
+	
     // Create proof
     const auto proof = r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(keypair.pk, pb.primary_input(), pb.auxiliary_input());
     proof.print_size();
@@ -59,10 +69,43 @@ void test_one_input() {
 
 
 int main (){
-  libff::print_header("Lets start");
-  default_r1cs_ppzksnark_pp::init_public_params();
+  //libff::print_header("Lets start");
+  
 
     //	test_r1cs_gg_ppzksnark<default_r1cs_gg_ppzksnark_pp>(1000, 100);
-test_one_input();
+	default_r1cs_ppzksnark_pp::init_public_params();
+	//test_one_input();
+	
+	cout<<"hello";
+	Controller c;
+	c.updateHelpers();
+	c.updateHelpers();
+	c.updateHelpers();
+	c.updateHelpers();
+	c.updateHelpers();
+	
+	auto start = std::chrono::system_clock::now();
+    std::time_t start_time = std::chrono::system_clock::to_time_t(start);
+
+    std::cout << "started computation at " << std::ctime(&start_time);
+    
+	// Some computation here
+    
+	//c.startMining();
+	//c.startMining();
+	//c.startMining();
+	//c.startMining();
+	//c.startMining();
+	//c.startMining();
+	c.zkp_startMining();
+	
+	auto end = std::chrono::system_clock::now();
+	std::chrono::duration<double> elapsed_seconds = end-start;
+    std::time_t end_time = std::chrono::system_clock::to_time_t(end);
+
+    std::cout << "finished computation at " << std::ctime(&end_time)
+              << "elapsed time: " << elapsed_seconds.count() << "s\n";
+			  
+	
 	return 0;
 }

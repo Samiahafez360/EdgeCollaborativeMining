@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="libsnark-tutorial" InternalType="" Version="10.0.0">
+  <VirtualDirectory Name="src">
+    <File Name="../src/sha256.cpp"/>
+    <File Name="../depends/libsnark/depends/ate-pairing/src/zm.cpp"/>
+    <File Name="../depends/libsnark/depends/ate-pairing/src/zm2.cpp"/>
+    <File Name="../depends/libsnark/depends/gtest/googlemock/src/gmock-all.cc"/>
+    <File Name="../depends/libsnark/depends/gtest/googlemock/src/gmock_main.cc"/>
+    <File Name="../depends/libsnark/depends/gtest/googletest/src/gtest-all.cc"/>
+    <File Name="../depends/libsnark/depends/gtest/googletest/src/gtest_main.cc"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/double.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/profiling.cpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/utils.cpp"/>
+    <File Name="../depends/libsnark/depends/libfqfft/tutorials/lagrange_polynomial_evaluation_example.cpp"/>
+    <File Name="../depends/libsnark/depends/libfqfft/tutorials/polynomial_evaluation_example.cpp"/>
+    <File Name="../depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_core/aes128encrypt/openssl/core.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_hash/sha256/sphlib/hash.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_hash/sha256/sphlib/hash_sha256.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_hash/sha256/sphlib/sha2.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_hash/sha512/openssl/hash.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/batch.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_add.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_getparity.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_invert.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_iseq.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_iszero.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_neg.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_pack.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_pow2523.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_setint.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_sub.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_unpack.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_add.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_base.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_double.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_double_scalarmult.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_isneutral.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_multi_scalarmult.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_pack.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_scalarmult_base.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_unpackneg.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/hram.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/index_heap.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/keypair.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/open.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_from32bytes.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_from64bytes.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_from_shortsc.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_iszero.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_mul.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_mul_shortsc.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_slide.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_to32bytes.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_window4.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sign.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_verify/16/ref/verify.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_verify/32/ref/verify_32.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_verify/8/ref/verify.c"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/randombytes.c"/>
+    <File Name="../depends/libsnark/libsnark/common/data_structures/integer_permutation.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/data_structures/set_commitment.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/r1cs_ppzkadsnark_pp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/tests/test_routing_algorithms.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/constraint_profiling.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/adapters.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/constraint.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/examples/simple_example.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/gadget.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/infrastructure.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/integration.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/pp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/protoboard.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/adapters_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/constraint_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/gadget_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/integration_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/protoboard_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/tests/variable_UTEST.cpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/variable.cpp"/>
+    <File Name="../depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/arithmetic_programs/qap/tests/test_qap.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/arithmetic_programs/sap/tests/test_sap.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/arithmetic_programs/ssp/tests/test_ssp.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.cpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzkadsnark/r1cs_ppzkadsnark/examples/demo_r1cs_ppzkadsnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp"/>
+    <File Name="../src/Block.cpp"/>
+    <File Name="../src/Controller.cpp"/>
+    <File Name="../src/Helper.cpp"/>
+    <File Name="../src/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/double.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/profiling.hpp"/>
+    <File Name="../depends/libsnark/depends/libff/libff/common/utils.hpp"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/choose_t.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/consts.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_freeze.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_mul.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_nsquare.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/fe25519_square.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_add_p1p1.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_dbl_p1p1.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_nielsadd2.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_nielsadd_p1p1.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_p1p1_to_p2.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_p1p1_to_p3.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_p1p1_to_pniels.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ge25519_pnielsadd_p1p1.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/heap_rootreplaced.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/heap_rootreplaced_1limb.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/heap_rootreplaced_2limbs.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/heap_rootreplaced_3limbs.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/hram.h"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/index_heap.h"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_add.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_barrett.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_lt.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/sc25519_sub_nored.s"/>
+    <File Name="../depends/libsnark/depends/libsnark-supercop/src/crypto_sign/ed25519/amd64-51-30k/ull4_mul.s"/>
+    <File Name="../depends/libsnark/libsnark/common/data_structures/integer_permutation.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/data_structures/set_commitment.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/r1cs_ppzkadsnark_pp.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/r1cs_ppzkpcd_pp.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/tinyram_ppzksnark_pp.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/default_types/tinyram_zksnark_pp.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/as_waksman_routing_algorithm.hpp"/>
+    <File Name="../depends/libsnark/libsnark/common/routing_algorithms/benes_routing_algorithm.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib1/constraint_profiling.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/adapters.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/constraint.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/examples/simple_example.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/gadget.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/infrastructure.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/integration.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/pp.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/protoboard.hpp"/>
+    <File Name="../depends/libsnark/libsnark/gadgetlib2/variable.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/circuit_satisfaction_problems/tbcs/tbcs.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.tcc"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/memory/memory_store_trace.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/memory/ra_memory.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/rams/fooram/fooram_aux.hpp"/>
+    <File Name="../depends/libsnark/libsnark/relations/ram_computations/rams/tinyram/tinyram_aux.hpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/examples/run_r1cs_ppzksnark.hpp"/>
+    <File Name="../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/examples/run_r1cs_ppzksnark.tcc"/>
+    <File Name="../src/Block.h"/>
+    <File Name="../src/Controller.h"/>
+    <File Name="../src/ControllerNetworkUtilities.hpp"/>
+    <File Name="../src/Helper.h"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <Configuration Name="RelWithDebInfo" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>/usr/bin/make -j 1 clean &amp;&amp; /usr/bin/make -j 1</RebuildCommand>
+        <CleanCommand>/usr/bin/make -j 1 clean</CleanCommand>
+        <BuildCommand>/usr/bin/make -j 1</BuildCommand>
+        <SingleFileCommand>/usr/bin/make -f$(ProjectPath)/Makefile $(CurrentFileName).cpp.o</SingleFileCommand>
+        <PreprocessFileCommand/>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+</CodeLite_Project>

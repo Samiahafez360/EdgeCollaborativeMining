@@ -11,6 +11,8 @@ add_executable(
   ControllerNetworkUtilities.hpp
   Block.h
   Block.cpp
+sha256.h
+sha256.cpp
 )
 target_link_libraries(
   main

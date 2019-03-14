@@ -3,6 +3,7 @@
 
 src/CMakeFiles/main.dir/Block.cpp.o: ../src/Block.cpp
 src/CMakeFiles/main.dir/Block.cpp.o: ../src/Block.h
+src/CMakeFiles/main.dir/Block.cpp.o: ../src/sha256.h
 
 src/CMakeFiles/main.dir/Controller.cpp.o: ../depends/libsnark/depends/ate-pairing/include/bn.h
 src/CMakeFiles/main.dir/Controller.cpp.o: ../depends/libsnark/depends/ate-pairing/include/zm.h
@@ -140,6 +141,7 @@ src/CMakeFiles/main.dir/Controller.cpp.o: ../depends/libsnark/libsnark/zk_proof_
 src/CMakeFiles/main.dir/Controller.cpp.o: ../src/Block.h
 src/CMakeFiles/main.dir/Controller.cpp.o: ../src/Controller.cpp
 src/CMakeFiles/main.dir/Controller.cpp.o: ../src/Controller.h
+src/CMakeFiles/main.dir/Controller.cpp.o: ../src/ControllerNetworkUtilities.hpp
 src/CMakeFiles/main.dir/Controller.cpp.o: ../src/Helper.h
 src/CMakeFiles/main.dir/Controller.cpp.o: /usr/include/x86_64-linux-gnu/gmp.h
 
@@ -276,8 +278,10 @@ src/CMakeFiles/main.dir/Helper.cpp.o: ../depends/libsnark/libsnark/zk_proof_syst
 src/CMakeFiles/main.dir/Helper.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
 src/CMakeFiles/main.dir/Helper.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
 src/CMakeFiles/main.dir/Helper.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
+src/CMakeFiles/main.dir/Helper.cpp.o: ../src/Block.h
 src/CMakeFiles/main.dir/Helper.cpp.o: ../src/Helper.cpp
 src/CMakeFiles/main.dir/Helper.cpp.o: ../src/Helper.h
+src/CMakeFiles/main.dir/Helper.cpp.o: ../src/sha256.h
 src/CMakeFiles/main.dir/Helper.cpp.o: /usr/include/x86_64-linux-gnu/gmp.h
 
 src/CMakeFiles/main.dir/main.cpp.o: ../depends/libsnark/depends/ate-pairing/include/bn.h
@@ -413,6 +417,13 @@ src/CMakeFiles/main.dir/main.cpp.o: ../depends/libsnark/libsnark/zk_proof_system
 src/CMakeFiles/main.dir/main.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp
 src/CMakeFiles/main.dir/main.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.tcc
 src/CMakeFiles/main.dir/main.cpp.o: ../depends/libsnark/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark_params.hpp
+src/CMakeFiles/main.dir/main.cpp.o: ../src/Block.h
+src/CMakeFiles/main.dir/main.cpp.o: ../src/Controller.h
+src/CMakeFiles/main.dir/main.cpp.o: ../src/ControllerNetworkUtilities.hpp
+src/CMakeFiles/main.dir/main.cpp.o: ../src/Helper.h
 src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/main.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/gmp.h
+
+src/CMakeFiles/main.dir/sha256.cpp.o: ../src/sha256.cpp
+src/CMakeFiles/main.dir/sha256.cpp.o: ../src/sha256.h
 

@@ -277,6 +277,33 @@ main.cpp.s:
 	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sha256.o: sha256.cpp.o
+
+.PHONY : sha256.o
+
+# target to build an object file
+sha256.cpp.o:
+	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.o
+.PHONY : sha256.cpp.o
+
+sha256.i: sha256.cpp.i
+
+.PHONY : sha256.i
+
+# target to preprocess a source file
+sha256.cpp.i:
+	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.i
+.PHONY : sha256.cpp.i
+
+sha256.s: sha256.cpp.s
+
+.PHONY : sha256.s
+
+# target to generate assembly for a file
+sha256.cpp.s:
+	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.s
+.PHONY : sha256.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -302,6 +329,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sha256.o"
+	@echo "... sha256.i"
+	@echo "... sha256.s"
 .PHONY : help
 
 

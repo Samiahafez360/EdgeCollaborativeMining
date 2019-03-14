@@ -1,0 +1,89 @@
+hellochoose one0x7ffc79b86550started computation at Thu Mar 14 06:16:12 2019
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 0is starting1639
+ thread 1is starting1639
+ thread 4is starting1639
+ thread 3is starting1639
+ thread 2is starting1639
+ FOOOOUUUUNNNNNNDDDDDDDD after682trials5599
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0372593s
+
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ FOOOOUUUUNNNNNNDDDDDDDD after1345trials1345
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0911944s
+we found the blockadding the blockfoo and bar completed.
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 0is starting1639
+ thread 4is starting1639
+ thread 3is starting1639
+ thread 2is starting1639
+ thread 1is starting1639
+ FOOOOUUUUNNNNNNDDDDDDDD after684trials2323
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0448499s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after456trials5373
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0498338s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after1088trials1088
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0557917s
+
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDDwe found the blockadding the blockfoo and bar completed.
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 4is starting1639
+ thread 0is starting1639
+ thread 1is starting1639
+ thread 3is starting1639
+ thread 2is starting1639
+ FOOOOUUUUNNNNNNDDDDDDDD after673trials2312
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0351591s
+
+ not FOOOOUUUUNNNNNNDDDD
+ FOOOOUUUUNNNNNNDDDDDDDD after1465trials8021
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 
+ not FOOOOUUUUNNNNNNDDDD0.0848397s
+
+ not FOOOOUUUUNNNNNNDDDDwe found the blockadding the blockfoo and bar completed.
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 0is starting1639
+ thread 2is starting1639
+ thread 1is starting1639
+ thread 3is starting1639
+ thread 4is starting1639
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDDfoo and bar completed.
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 0is starting1639
+ thread 1is starting1639
+ thread 2is starting1639
+ thread 3is starting1639
+ thread 4is starting1639
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDDfoo and bar completed.
+started mining at Thu Mar 14 06:16:12 2019
+choose one0x7ffc79b865b0
+ thread 0is starting1639
+ thread 1is starting1639
+ thread 3is starting1639
+ thread 4is starting1639
+ thread 2is starting1639
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDDfoo and bar completed.
+finished computation at Thu Mar 14 06:16:12 2019
+elapsed time: 0.470727s
