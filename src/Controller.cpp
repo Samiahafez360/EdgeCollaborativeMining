@@ -21,7 +21,7 @@
 
 using namespace libsnark;
 
-#define DIFFICULTY 1
+#define DIFFICULTY 3
 
 Controller::Controller(){
 	

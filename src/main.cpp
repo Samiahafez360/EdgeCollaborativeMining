@@ -79,6 +79,9 @@ int main (){
 	cout<<"hello";
 	Controller c;
 	c.updateHelpers();
+	c.updateHelpers();
+	c.updateHelpers();
+	c.updateHelpers();
 	
 	
 	auto start = std::chrono::system_clock::now();
