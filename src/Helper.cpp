@@ -50,6 +50,7 @@ typedef libff::Fr<default_r1cs_ppzksnark_pp> FieldT;
 int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBlock,r1cs_ppzksnark_proving_key<default_r1cs_ppzksnark_pp> pk,std::chrono::system_clock::time_point starttime)
 {
 	//create the board and the gadget
+	std::cout << "\nCreate the board and the gadget\n";
 	protoboard<FieldT> pb;
 
     block_variable<FieldT>  input(pb, SHA256_block_size, "input");
@@ -76,11 +77,14 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 		libff::print_header("Mining loooooooooppppp");
 		
 		stringstream ss;
-		
+		std::cout << "\nprepare the stream\n";
+	
 		ss << mBlock._nIndex << mBlock.sPrevHash << mBlock._tTime << mBlock._sData << _nNonce;
     
 		sHash = sha256(ss.str());
 		
+		std::cout << "\nwitnessing \n";
+	
 		std::vector<bool> myVec;
 		for(auto a : ss.str()) myVec.push_back(a =='1');
 		const libff::bit_vector input_bv = myVec;
@@ -93,7 +97,8 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 
 		sha256_gadget.generate_r1cs_witness();
 		_nNonce++;
-		
+		std::cout << "\nProving\n";
+	
 		proof = r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
 		proof.print_size();
 		

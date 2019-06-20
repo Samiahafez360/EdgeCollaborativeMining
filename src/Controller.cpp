@@ -152,8 +152,10 @@ void Controller::zkp_sendrangetohelper(unsigned id, uint32_t indrange ){
 	std::cout<<"\n thread "<< id <<"is starting" ;
 	
 	//const auto proof;
-	
-	responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *currentblock, keypair.pk,starttime);
+	Block* b= new Block(currentblock->_nIndex, currentblock->_sData);
+	b->_tTime = currentblock->_tTime;
+	b->sHash= b->_CalculateHash();
+	responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, keypair.pk,starttime);
 	
 	//verify the proof
 	bool verified = r1cs_ppzksnark_verifier_strong_IC<default_r1cs_ppzksnark_pp>(keypair.vk, pb.primary_input(), helpers[id].proof);
