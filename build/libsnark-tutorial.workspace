@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="libsnark-tutorial" Version="10.0.0">
+  <Project Name="gmock" Path="depends/libsnark/depends/gtest/googlemock/gmock.project" Active="No"/>
+  <Project Name="googletest-distribution" Path="depends/libsnark/depends/gtest/googletest-distribution.project" Active="No"/>
+  <Project Name="gtest" Path="depends/libsnark/depends/gtest/googlemock/gtest/gtest.project" Active="No"/>
+  <Project Name="libff" Path="depends/libsnark/depends/libff/libff.project" Active="No"/>
+  <Project Name="libfqfft" Path="depends/libsnark/depends/libfqfft/libfqfft.project" Active="No"/>
+  <Project Name="libsnark" Path="depends/libsnark/libsnark.project" Active="No"/>
+  <Project Name="libsnark-tutorial" Path="libsnark-tutorial.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="RelWithDebInfo" Selected="yes">
+      <Project Name="gmock" ConfigName="RelWithDebInfo"/>
+      <Project Name="googletest-distribution" ConfigName="RelWithDebInfo"/>
+      <Project Name="gtest" ConfigName="RelWithDebInfo"/>
+      <Project Name="libff" ConfigName="RelWithDebInfo"/>
+      <Project Name="libfqfft" ConfigName="RelWithDebInfo"/>
+      <Project Name="libsnark" ConfigName="RelWithDebInfo"/>
+      <Project Name="libsnark-tutorial" ConfigName="RelWithDebInfo"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

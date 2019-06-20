@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="libff" InternalType="">
+  <VirtualDirectory Name="src">
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/double.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/profiling.cpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/utils.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g1.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_g2.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_gt.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_init.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pairing.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/bn128/bn128_pp.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g1.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_g2.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_init.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pairing.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/edwards/edwards_pp.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt46_common.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/double.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/profiling.hpp"/>
+    <File Name="../../../../../depends/libsnark/depends/libff/libff/common/utils.hpp"/>
+  </VirtualDirectory>
+
+  <Settings Type="Static Library">
+    <Configuration Name="RelWithDebInfo" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>/usr/bin/make -j 2 clean &amp;&amp; /usr/bin/make -j 2</RebuildCommand>
+        <CleanCommand>/usr/bin/make -j 2 clean</CleanCommand>
+        <BuildCommand>/usr/bin/make -j 2</BuildCommand>
+        <SingleFileCommand>/usr/bin/make -f$(ProjectPath)/Makefile $(CurrentFileName).cpp.o</SingleFileCommand>
+        <PreprocessFileCommand/>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+</CodeLite_Project>
