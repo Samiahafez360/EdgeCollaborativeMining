@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/samia/libsnarktut/depends/libsnark
-BuildDirectory: /home/samia/libsnarktut/build/depends/libsnark
+SourceDirectory: /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark
+BuildDirectory: /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark
 
 # Where to place the cost data store
 CostDataFile: 
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/samia/libsnarktut/depends/libsnark"
+ConfigureCommand: "/usr/bin/cmake" "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -77,7 +77,7 @@ ValgrindCommand:
 ValgrindCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+MemoryCheckCommand: /usr/bin/valgrind
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 

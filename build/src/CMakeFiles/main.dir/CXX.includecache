@@ -1152,13 +1152,13 @@ libff/algebra/curves/public_params.hpp
 libsnark/relations/constraint_satisfaction_problems/r1cs/r1cs.hpp
 -
 
-/home/samia/libsnarktut/src/Block.cpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.cpp
 Block.h
-/home/samia/libsnarktut/src/Block.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 sha256.h
-/home/samia/libsnarktut/src/sha256.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.h
 
-/home/samia/libsnarktut/src/Block.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 cstdint
 -
 iostream
@@ -1166,11 +1166,11 @@ iostream
 sstream
 -
 
-/home/samia/libsnarktut/src/Controller.cpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.cpp
 Controller.h
-/home/samia/libsnarktut/src/Controller.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.h
 ControllerNetworkUtilities.hpp
-/home/samia/libsnarktut/src/ControllerNetworkUtilities.hpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/ControllerNetworkUtilities.hpp
 cmath
 -
 thread
@@ -1202,7 +1202,7 @@ iostream
 chrono
 -
 
-/home/samia/libsnarktut/src/Controller.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.h
 cstdint
 -
 vector
@@ -1210,35 +1210,35 @@ vector
 thread
 -
 Helper.h
-/home/samia/libsnarktut/src/Helper.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 Block.h
-/home/samia/libsnarktut/src/Block.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 ControllerNetworkUtilities.hpp
-/home/samia/libsnarktut/src/ControllerNetworkUtilities.hpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/ControllerNetworkUtilities.hpp
 Helper.h
-/home/samia/libsnarktut/src/Helper.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 
-/home/samia/libsnarktut/src/ControllerNetworkUtilities.hpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/ControllerNetworkUtilities.hpp
 cstdint
 -
 vector
 -
 Helper.h
-/home/samia/libsnarktut/src/Helper.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 Block.h
-/home/samia/libsnarktut/src/Block.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 
-/home/samia/libsnarktut/src/Helper.cpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.cpp
 Helper.h
-/home/samia/libsnarktut/src/Helper.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 sha256.h
-/home/samia/libsnarktut/src/sha256.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.h
 Block.h
-/home/samia/libsnarktut/src/Block.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 chrono
 -
 
-/home/samia/libsnarktut/src/Helper.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 cstdint
 -
 vector
@@ -1280,7 +1280,7 @@ string
 chrono
 -
 
-/home/samia/libsnarktut/src/main.cpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/main.cpp
 libff/common/default_types/ec_pp.hpp
 -
 libsnark/common/default_types/r1cs_gg_ppzksnark_pp.hpp
@@ -1306,7 +1306,7 @@ libsnark/gadgetlib1/protoboard.hpp
 iostream
 -
 Controller.h
-/home/samia/libsnarktut/src/Controller.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.h
 string
 -
 chrono
@@ -1314,15 +1314,15 @@ chrono
 ctime
 -
 
-/home/samia/libsnarktut/src/sha256.cpp
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.cpp
 cstring
 -
 fstream
 -
 sha256.h
-/home/samia/libsnarktut/src/sha256.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.h
 
-/home/samia/libsnarktut/src/sha256.h
+/home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.h
 string
 -
 

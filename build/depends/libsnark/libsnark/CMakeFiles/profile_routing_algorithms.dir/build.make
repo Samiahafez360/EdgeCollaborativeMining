@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/depend.make
@@ -59,16 +59,16 @@ include depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/flag
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o: depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/flags.make
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o: ../depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o"
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o -c /home/samia/libsnarktut/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i"
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp > CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp > CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s"
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp -o CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/common/routing_algorithms/profiling/profile_routing_algorithms.cpp -o CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o.requires:
 
@@ -97,8 +97,8 @@ depends/libsnark/libsnark/profile_routing_algorithms: /usr/lib/x86_64-linux-gnu/
 depends/libsnark/libsnark/profile_routing_algorithms: /usr/lib/x86_64-linux-gnu/libgmpxx.so
 depends/libsnark/libsnark/profile_routing_algorithms: depends/libsnark/depends/libzm.a
 depends/libsnark/libsnark/profile_routing_algorithms: depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable profile_routing_algorithms"
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/profile_routing_algorithms.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable profile_routing_algorithms"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/profile_routing_algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build: depends/libsnark/libsnark/profile_routing_algorithms
@@ -110,10 +110,10 @@ depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/requires: de
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/requires
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/profile_routing_algorithms.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/profile_routing_algorithms.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark/libsnark /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark/libsnark /home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/depend
 

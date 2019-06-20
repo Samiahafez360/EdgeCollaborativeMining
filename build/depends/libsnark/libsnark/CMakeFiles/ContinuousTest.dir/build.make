@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Utility rule file for ContinuousTest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
 include depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousTest:
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && /usr/bin/ctest -D ContinuousTest
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && /usr/bin/ctest -D ContinuousTest
 
 ContinuousTest: depends/libsnark/libsnark/CMakeFiles/ContinuousTest
 ContinuousTest: depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build.make
@@ -67,10 +67,10 @@ depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build: ContinuousTest
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousTest.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousTest.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark/libsnark /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark/libsnark /home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/depend
 

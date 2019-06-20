@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles /home/samia/libsnarktut/build/depends/libsnark/CMakeFiles/progress.marks
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/CMakeFiles/progress.marks
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/clean
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/preinstall
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/preinstall
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 depends/libsnark/CMakeFiles/doc.dir/rule:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/CMakeFiles/doc.dir/rule
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/CMakeFiles/doc.dir/rule
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ doc: depends/libsnark/CMakeFiles/doc.dir/rule
 
 # fast build rule for target.
 doc/fast:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f depends/libsnark/CMakeFiles/doc.dir/build.make depends/libsnark/CMakeFiles/doc.dir/build
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f depends/libsnark/CMakeFiles/doc.dir/build.make depends/libsnark/CMakeFiles/doc.dir/build
 .PHONY : doc/fast
 
 # Convenience name for target.
 depends/libsnark/CMakeFiles/check.dir/rule:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/CMakeFiles/check.dir/rule
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 depends/libsnark/CMakeFiles/check.dir/rule
 .PHONY : depends/libsnark/CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ check: depends/libsnark/CMakeFiles/check.dir/rule
 
 # fast build rule for target.
 check/fast:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f depends/libsnark/CMakeFiles/check.dir/build.make depends/libsnark/CMakeFiles/check.dir/build
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f depends/libsnark/CMakeFiles/check.dir/build.make depends/libsnark/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
 # Help Target
@@ -209,6 +209,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

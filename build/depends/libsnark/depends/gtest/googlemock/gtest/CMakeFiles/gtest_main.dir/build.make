@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.di
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../depends/libsnark/depends/gtest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a: depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build: depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a
@@ -105,10 +105,10 @@ depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/requir
 .PHONY : depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/requires
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest /home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 

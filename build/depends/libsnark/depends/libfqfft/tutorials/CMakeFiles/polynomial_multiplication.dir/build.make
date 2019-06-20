@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend.make
@@ -59,16 +59,16 @@ include depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multip
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o: depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/flags.make
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o: ../depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -c /home/samia/libsnarktut/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp > CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp > CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.i
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication_on_fft_example.cpp -o CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.s
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o.requires:
 
@@ -94,8 +94,8 @@ depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: depends/l
 depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: /usr/lib/x86_64-linux-gnu/libgmp.so
 depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: depends/libsnark/depends/libzm.a
 depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication: depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable polynomial_multiplication"
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial_multiplication.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable polynomial_multiplication"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial_multiplication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/build: depends/libsnark/depends/libfqfft/tutorials/polynomial_multiplication
@@ -107,10 +107,10 @@ depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/requires
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/polynomial_multiplication.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/polynomial_multiplication.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/clean
 
 depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark/depends/libfqfft/tutorials /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials /home/samia/libsnarktut/build/depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/libfqfft/tutorials /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/samia/libsnarktut/src
+# Install script for directory: /home/samia/locallibsnark/EdgeCollaborativeMining/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

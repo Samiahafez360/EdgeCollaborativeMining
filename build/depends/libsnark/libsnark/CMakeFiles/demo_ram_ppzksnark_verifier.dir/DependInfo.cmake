@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samia/libsnarktut/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp" "/home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "MONTGOMERY_OUTPUT"
+  "MULTICORE=1"
+  "MULTICORE=3"
+  "NO_PROCPS"
   "USE_ASM"
   )
 
@@ -29,9 +32,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

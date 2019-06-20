@@ -1,4 +1,4 @@
-# Install script for directory: /home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest
+# Install script for directory: /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/libgtest_main.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest/include/gtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest/include/gtest")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/samia/libsnarktut/build/gtest.pc"
-    "/home/samia/libsnarktut/build/gtest_main.pc"
+    "/home/samia/locallibsnark/EdgeCollaborativeMining/build/gtest.pc"
+    "/home/samia/locallibsnark/EdgeCollaborativeMining/build/gtest_main.pc"
     )
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/main.dir/flags.make
 
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/samia/libsnarktut/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/src/main.cpp
 
 src/CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 src/CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 src/CMakeFiles/main.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/main.dir/main.cpp.o.provides.build: src/CMakeFiles/main.dir/main.
 
 src/CMakeFiles/main.dir/Controller.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/Controller.cpp.o: ../src/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/main.dir/Controller.cpp.o"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Controller.cpp.o -c /home/samia/libsnarktut/src/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/main.dir/Controller.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Controller.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.cpp
 
 src/CMakeFiles/main.dir/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Controller.cpp.i"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/src/Controller.cpp > CMakeFiles/main.dir/Controller.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.cpp > CMakeFiles/main.dir/Controller.cpp.i
 
 src/CMakeFiles/main.dir/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Controller.cpp.s"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/src/Controller.cpp -o CMakeFiles/main.dir/Controller.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.cpp -o CMakeFiles/main.dir/Controller.cpp.s
 
 src/CMakeFiles/main.dir/Controller.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/main.dir/Controller.cpp.o.provides.build: src/CMakeFiles/main.dir
 
 src/CMakeFiles/main.dir/Helper.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/Helper.cpp.o: ../src/Helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/main.dir/Helper.cpp.o"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Helper.cpp.o -c /home/samia/libsnarktut/src/Helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/main.dir/Helper.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Helper.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.cpp
 
 src/CMakeFiles/main.dir/Helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Helper.cpp.i"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/src/Helper.cpp > CMakeFiles/main.dir/Helper.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.cpp > CMakeFiles/main.dir/Helper.cpp.i
 
 src/CMakeFiles/main.dir/Helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Helper.cpp.s"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/src/Helper.cpp -o CMakeFiles/main.dir/Helper.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.cpp -o CMakeFiles/main.dir/Helper.cpp.s
 
 src/CMakeFiles/main.dir/Helper.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/main.dir/Helper.cpp.o.provides.build: src/CMakeFiles/main.dir/Hel
 
 src/CMakeFiles/main.dir/Block.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/Block.cpp.o: ../src/Block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/Block.cpp.o"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Block.cpp.o -c /home/samia/libsnarktut/src/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/main.dir/Block.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Block.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.cpp
 
 src/CMakeFiles/main.dir/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Block.cpp.i"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/src/Block.cpp > CMakeFiles/main.dir/Block.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.cpp > CMakeFiles/main.dir/Block.cpp.i
 
 src/CMakeFiles/main.dir/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Block.cpp.s"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/src/Block.cpp -o CMakeFiles/main.dir/Block.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.cpp -o CMakeFiles/main.dir/Block.cpp.s
 
 src/CMakeFiles/main.dir/Block.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/main.dir/Block.cpp.o.provides.build: src/CMakeFiles/main.dir/Bloc
 
 src/CMakeFiles/main.dir/sha256.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/sha256.cpp.o: ../src/sha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/main.dir/sha256.cpp.o"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sha256.cpp.o -c /home/samia/libsnarktut/src/sha256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/main.dir/sha256.cpp.o"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/sha256.cpp.o -c /home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.cpp
 
 src/CMakeFiles/main.dir/sha256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/sha256.cpp.i"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/libsnarktut/src/sha256.cpp > CMakeFiles/main.dir/sha256.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.cpp > CMakeFiles/main.dir/sha256.cpp.i
 
 src/CMakeFiles/main.dir/sha256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/sha256.cpp.s"
-	cd /home/samia/libsnarktut/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/libsnarktut/src/sha256.cpp -o CMakeFiles/main.dir/sha256.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.cpp -o CMakeFiles/main.dir/sha256.cpp.s
 
 src/CMakeFiles/main.dir/sha256.cpp.o.requires:
 
@@ -201,8 +201,8 @@ src/main: /usr/lib/x86_64-linux-gnu/libgmp.so
 src/main: /usr/lib/x86_64-linux-gnu/libgmpxx.so
 src/main: depends/libsnark/depends/libzm.a
 src/main: src/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
-	cd /home/samia/libsnarktut/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/main.dir/build: src/main
@@ -218,10 +218,10 @@ src/CMakeFiles/main.dir/requires: src/CMakeFiles/main.dir/sha256.cpp.o.requires
 .PHONY : src/CMakeFiles/main.dir/requires
 
 src/CMakeFiles/main.dir/clean:
-	cd /home/samia/libsnarktut/build/src && $(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/src && $(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/main.dir/clean
 
 src/CMakeFiles/main.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/src /home/samia/libsnarktut/build /home/samia/libsnarktut/build/src /home/samia/libsnarktut/build/src/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/src /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/src /home/samia/locallibsnark/EdgeCollaborativeMining/build/src/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/main.dir/depend
 

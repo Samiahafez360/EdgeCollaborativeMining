@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Utility rule file for NightlyTest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
 include depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/NightlyTest:
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && /usr/bin/ctest -D NightlyTest
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && /usr/bin/ctest -D NightlyTest
 
 NightlyTest: depends/libsnark/libsnark/CMakeFiles/NightlyTest
 NightlyTest: depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build.make
@@ -67,10 +67,10 @@ depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build: NightlyTest
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyTest.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyTest.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark/libsnark /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark/libsnark /home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/depend
 

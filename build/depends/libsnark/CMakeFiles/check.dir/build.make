@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Utility rule file for check.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
 include depends/libsnark/CMakeFiles/check.dir/progress.make
 
 depends/libsnark/CMakeFiles/check:
-	cd /home/samia/libsnarktut/build/depends/libsnark && /usr/bin/ctest
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark && /usr/bin/ctest
 
 check: depends/libsnark/CMakeFiles/check
 check: depends/libsnark/CMakeFiles/check.dir/build.make
@@ -67,10 +67,10 @@ depends/libsnark/CMakeFiles/check.dir/build: check
 .PHONY : depends/libsnark/CMakeFiles/check.dir/build
 
 depends/libsnark/CMakeFiles/check.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/check.dir/clean
 
 depends/libsnark/CMakeFiles/check.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark /home/samia/libsnarktut/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/CMakeFiles/check.dir/depend
 

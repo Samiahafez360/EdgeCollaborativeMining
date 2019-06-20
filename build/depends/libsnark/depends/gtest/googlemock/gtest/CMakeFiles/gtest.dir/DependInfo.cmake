@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samia/libsnarktut/depends/libsnark/depends/gtest/googletest/src/gtest-all.cc" "/home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/gtest/googletest/src/gtest-all.cc" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "MONTGOMERY_OUTPUT"
+  "MULTICORE=1"
+  "MULTICORE=3"
+  "NO_PROCPS"
   "USE_ASM"
   )
 

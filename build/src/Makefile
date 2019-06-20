@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles /home/samia/libsnarktut/build/src/CMakeFiles/progress.marks
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/libsnarktut/build/CMakeFiles 0
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles /home/samia/locallibsnark/EdgeCollaborativeMining/build/src/CMakeFiles/progress.marks
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/main.dir/rule:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ main: src/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 Block.o: Block.cpp.o
@@ -175,7 +175,7 @@ Block.o: Block.cpp.o
 
 # target to build an object file
 Block.cpp.o:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.o
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.o
 .PHONY : Block.cpp.o
 
 Block.i: Block.cpp.i
@@ -184,7 +184,7 @@ Block.i: Block.cpp.i
 
 # target to preprocess a source file
 Block.cpp.i:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.i
 .PHONY : Block.cpp.i
 
 Block.s: Block.cpp.s
@@ -193,7 +193,7 @@ Block.s: Block.cpp.s
 
 # target to generate assembly for a file
 Block.cpp.s:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Block.cpp.s
 .PHONY : Block.cpp.s
 
 Controller.o: Controller.cpp.o
@@ -202,7 +202,7 @@ Controller.o: Controller.cpp.o
 
 # target to build an object file
 Controller.cpp.o:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.o
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.o
 .PHONY : Controller.cpp.o
 
 Controller.i: Controller.cpp.i
@@ -211,7 +211,7 @@ Controller.i: Controller.cpp.i
 
 # target to preprocess a source file
 Controller.cpp.i:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.i
 .PHONY : Controller.cpp.i
 
 Controller.s: Controller.cpp.s
@@ -220,7 +220,7 @@ Controller.s: Controller.cpp.s
 
 # target to generate assembly for a file
 Controller.cpp.s:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Controller.cpp.s
 .PHONY : Controller.cpp.s
 
 Helper.o: Helper.cpp.o
@@ -229,7 +229,7 @@ Helper.o: Helper.cpp.o
 
 # target to build an object file
 Helper.cpp.o:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.o
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.o
 .PHONY : Helper.cpp.o
 
 Helper.i: Helper.cpp.i
@@ -238,7 +238,7 @@ Helper.i: Helper.cpp.i
 
 # target to preprocess a source file
 Helper.cpp.i:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.i
 .PHONY : Helper.cpp.i
 
 Helper.s: Helper.cpp.s
@@ -247,7 +247,7 @@ Helper.s: Helper.cpp.s
 
 # target to generate assembly for a file
 Helper.cpp.s:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Helper.cpp.s
 .PHONY : Helper.cpp.s
 
 main.o: main.cpp.o
@@ -256,7 +256,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -265,7 +265,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -274,7 +274,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 sha256.o: sha256.cpp.o
@@ -283,7 +283,7 @@ sha256.o: sha256.cpp.o
 
 # target to build an object file
 sha256.cpp.o:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.o
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.o
 .PHONY : sha256.cpp.o
 
 sha256.i: sha256.cpp.i
@@ -292,7 +292,7 @@ sha256.i: sha256.cpp.i
 
 # target to preprocess a source file
 sha256.cpp.i:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.i
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.i
 .PHONY : sha256.cpp.i
 
 sha256.s: sha256.cpp.s
@@ -301,7 +301,7 @@ sha256.s: sha256.cpp.s
 
 # target to generate assembly for a file
 sha256.cpp.s:
-	cd /home/samia/libsnarktut/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.s
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sha256.cpp.s
 .PHONY : sha256.cpp.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

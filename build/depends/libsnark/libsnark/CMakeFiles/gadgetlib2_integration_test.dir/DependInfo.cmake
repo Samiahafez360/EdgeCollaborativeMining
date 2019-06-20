@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samia/libsnarktut/depends/libsnark/libsnark/gadgetlib2/examples/simple_example.cpp" "/home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.o"
-  "/home/samia/libsnarktut/depends/libsnark/libsnark/gadgetlib2/tests/integration_UTEST.cpp" "/home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/gadgetlib2/examples/simple_example.cpp" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/gadgetlib2/tests/integration_UTEST.cpp" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,6 +15,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "MONTGOMERY_OUTPUT"
+  "MULTICORE=1"
+  "MULTICORE=3"
+  "NO_PROCPS"
   "USE_ASM"
   )
 
@@ -31,11 +34,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/samia/libsnarktut/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
-  "/home/samia/libsnarktut/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/CMakeFiles/zm.dir/DependInfo.cmake"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

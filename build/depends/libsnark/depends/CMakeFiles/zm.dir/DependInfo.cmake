@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samia/libsnarktut/depends/libsnark/depends/ate-pairing/src/zm.cpp" "/home/samia/libsnarktut/build/depends/libsnark/depends/CMakeFiles/zm.dir/ate-pairing/src/zm.cpp.o"
-  "/home/samia/libsnarktut/depends/libsnark/depends/ate-pairing/src/zm2.cpp" "/home/samia/libsnarktut/build/depends/libsnark/depends/CMakeFiles/zm.dir/ate-pairing/src/zm2.cpp.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/ate-pairing/src/zm.cpp" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/CMakeFiles/zm.dir/ate-pairing/src/zm.cpp.o"
+  "/home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/ate-pairing/src/zm2.cpp" "/home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/depends/CMakeFiles/zm.dir/ate-pairing/src/zm2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,6 +15,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "MONTGOMERY_OUTPUT"
+  "MULTICORE=1"
+  "MULTICORE=3"
+  "NO_PROCPS"
   "USE_ASM"
   )
 

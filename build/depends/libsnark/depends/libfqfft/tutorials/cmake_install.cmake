@@ -1,4 +1,4 @@
-# Install script for directory: /home/samia/libsnarktut/depends/libsnark/depends/libfqfft/tutorials
+# Install script for directory: /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/depends/libfqfft/tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

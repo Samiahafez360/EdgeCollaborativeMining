@@ -76,5 +76,5 @@ depends/libsnark/libsnark/CMakeFiles/snark_adsnark.dir/common/default_types/r1cs
  ../depends/libsnark/depends/libff/libff/../libff/common/serialization.tcc
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.hpp
  ../depends/libsnark/depends/libff/libff/../libff/common/utils.tcc
- /home/samia/libsnarktut/depends/libsnark/libsnark/common/default_types/r1cs_ppzkadsnark_pp.cpp
+ /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/libsnark/common/default_types/r1cs_ppzkadsnark_pp.cpp
  /usr/include/x86_64-linux-gnu/gmp.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/samia/libsnarktut
+CMAKE_SOURCE_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
+CMAKE_BINARY_DIR = /home/samia/locallibsnark/EdgeCollaborativeMining/build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/samia/libsnarktut/build
 include depends/libsnark/CMakeFiles/doc.dir/progress.make
 
 depends/libsnark/CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/samia/libsnarktut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
-	cd /home/samia/libsnarktut/build/depends/libsnark && /usr/bin/markdown_py -f /home/samia/libsnarktut/build/depends/libsnark/README.html -x toc -x extra --noisy /home/samia/libsnarktut/depends/libsnark/README.md
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/samia/locallibsnark/EdgeCollaborativeMining/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark && /usr/bin/markdown_py -f /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/README.html -x toc -x extra --noisy /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark/README.md
 
 doc: depends/libsnark/CMakeFiles/doc
 doc: depends/libsnark/CMakeFiles/doc.dir/build.make
@@ -68,10 +68,10 @@ depends/libsnark/CMakeFiles/doc.dir/build: doc
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/build
 
 depends/libsnark/CMakeFiles/doc.dir/clean:
-	cd /home/samia/libsnarktut/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/clean
 
 depends/libsnark/CMakeFiles/doc.dir/depend:
-	cd /home/samia/libsnarktut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/libsnarktut /home/samia/libsnarktut/depends/libsnark /home/samia/libsnarktut/build /home/samia/libsnarktut/build/depends/libsnark /home/samia/libsnarktut/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samia/locallibsnark/EdgeCollaborativeMining/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samia/locallibsnark/EdgeCollaborativeMining /home/samia/locallibsnark/EdgeCollaborativeMining/depends/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark /home/samia/locallibsnark/EdgeCollaborativeMining/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/depend
 
