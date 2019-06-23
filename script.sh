@@ -1,362 +1,322 @@
 echo "==================12_1===================" >> output12_0.txt
 
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 1 0 >> output12_0.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
+echo "________________________________________________________________" >> output12_0_1.txt
+./build/src/main 12 1 0 >> output12_0_1.txt
 
 
 echo "==================12_2===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 2 0 >> output12_0.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
+echo "________________________________________________________________" >> output12_0_2.txt
+./build/src/main 12 2 0 >> output12_0_2.txt
 
 
 
 
 echo "==================12_3===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 3 0 >> output12_0.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
+echo "________________________________________________________________" >> output12_0_3.txt
+./build/src/main 12 3 0 >> output12_0_3.txt
 
 
 
 echo "==================12_4===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 4 0 >> output12_0.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
+echo "________________________________________________________________" >> output12_0_4.txt
+./build/src/main 12 4 0 >> output12_0_4.txt
 
 
 
 
 echo "==================12_5===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 5 0 >> output12_0.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
+echo "________________________________________________________________" >> output12_0_5.txt
+./build/src/main 12 5 0 >> output12_0_5.txt
 
 
 
 
 
 echo "==================12_6===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 6 0 >> output12_0.txt
+./build/src/main 12 6 0 >> output12_0_6_1.txt
+./build/src/main 12 6 0 >> output12_0_6_2.txt
+./build/src/main 12 6 0 >> output12_0_6_3.txt
+./build/src/main 12 6 0 >> output12_0_6_4.txt
+./build/src/main 12 6 0 >> output12_0_6_5.txt
+./build/src/main 12 6 0 >> output12_0_6_6.txt
+./build/src/main 12 6 0 >> output12_0_6_7.txt
+./build/src/main 12 6 0 >> output12_0_6_8.txt
+./build/src/main 12 6 0 >> output12_0_6_9.txt
+./build/src/main 12 6 0 >> output12_0_6_10.txt
 
 
 echo "==================12_7===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 7 0 >> output12_0.txt
+./build/src/main 12 7 0 >> output12_0_7_1.txt
+./build/src/main 12 7 0 >> output12_0_7_2.txt
+./build/src/main 12 7 0 >> output12_0_7_3.txt
+./build/src/main 12 7 0 >> output12_0_7_4.txt
+./build/src/main 12 7 0 >> output12_0_7_5.txt
+./build/src/main 12 7 0 >> output12_0_7_6.txt
+./build/src/main 12 7 0 >> output12_0_7_7.txt
+./build/src/main 12 7 0 >> output12_0_7_8.txt
+./build/src/main 12 7 0 >> output12_0_7_9.txt
+./build/src/main 12 7 0 >> output12_0_7_10.txt
 
 echo "==================12_8===================" >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 8 0 >> output12_0.txt
+./build/src/main 12 8 0 >> output12_0_8_1.txt
+./build/src/main 12 8 0 >> output12_0_8_2.txt
+./build/src/main 12 8 0 >> output12_0_8_3.txt
+./build/src/main 12 8 0 >> output12_0_8_4.txt
+./build/src/main 12 8 0 >> output12_0_8_5.txt
+./build/src/main 12 8 0 >> output12_0_8_6.txt
+./build/src/main 12 8 0 >> output12_0_8_7.txt
+./build/src/main 12 8 0 >> output12_0_8_8.txt
+./build/src/main 12 8 0 >> output12_0_8_9.txt
+./build/src/main 12 8 0 >> output12_0_8_10.txt
 
 echo "==================12_9===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 9 0 >> output12_0.txt
+./build/src/main 12 9 0 >> output12_0_9_10.txt
 
 
 echo "==================12_10===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 10 0 >> output12_0.txt
+./build/src/main 12 10 0 >> output12_0_10_10.txt
 
 
 
 echo "==================12_11===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 11 0 >> output12_0.txt
+./build/src/main 12 11 0 >> output12_0_11_10.txt
 
 
 echo "==================12_12===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 12 0 >> output12_0.txt
+./build/src/main 12 12 0 >> output12_0_12_10.txt
+
+
 
 echo "==================12_13===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
-echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 13 0 >> output12_0.txt
+./build/src/main 12 13 0 >> output12_0_13_10.txt
 
 
 echo "==================12_14===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_9.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 14 0 >> output12_0.txt
+./build/src/main 12 14 0 >> output12_0_14_10.txt
 
 
 
 echo "==================12_15===================" >> output12_0.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_1.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_2.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_3.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_4.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_5.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_6.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_7.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_8.txt
 echo "________________________________________________________________" >> output12_0.txt
-./build/src/main 12 15 0 >> output12_0.txt
+./build/src/main 12 15 0 >> output12_0_15_9.txt
 
