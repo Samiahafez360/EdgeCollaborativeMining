@@ -17,23 +17,25 @@
 #include <libsnark/gadgetlib1/protoboard.hpp>
 #include <iostream>
 #include <chrono>
+#include <mutex>
 
 
 using namespace libsnark;
 
-#define DIFFICULTY 3
+using namespace std;
 
 Controller::Controller(){
 	
 // cosult the network about the chain to get the last hash and try to min over it
+  DIFFICULTY = 3;
   populatechain();
   
   netutils = new ControllerNetworkUtilities();
 }
-Controller::Controller(int initial){
-// cosult the network about the chain to get the last hash and try to min over it
+Controller::Controller(int diff){
+	DIFFICULTY = diff;
   populatechain();
-  netutils = new ControllerNetworkUtilities(initial);
+  netutils = new ControllerNetworkUtilities();
 }
 // before networking
 void Controller::AddBlock(){
@@ -48,6 +50,13 @@ int Controller::getnofhelpers(){
 }
 
 void Controller::startMining(){
+	
+	for (unsigned i =0 ; i < getnofhelpers(); i++){
+		responses[i]= 0;
+	}
+	
+	
+	
 	starttime = std::chrono::system_clock::now();
     std::time_t start_time = std::chrono::system_clock::to_time_t(starttime);
 
@@ -55,10 +64,12 @@ void Controller::startMining(){
     
 	currentblock = new Block(_vChain.size(), "next block in being mined");
 	int n = getnofhelpers();
-	long range = powl(2,DIFFICULTY+10);
-	long indrange = ceil (range*1.0 /n*1.0);
+	long range = powl(2,DIFFICULTY*3+5);
+	long indrange = 1024;//ceil (range*1.0 /n*1.0);
+	currentstart = 0;
 	for (unsigned i =0 ; i < n ; i++){
 		helperths.push_back(std::thread(&Controller::sendrangetohelper,this,i,indrange)); 
+		currentstart++;
 	}
 	
 	
@@ -81,10 +92,35 @@ void Controller::startMining(){
 	
 	std::cout << "foo and bar completed.\n";
 }
+bool Controller::hashFound(){
+	for (unsigned i =0 ; i < getnofhelpers(); i++){
+		if (responses[i]> 0){
+			
+			return true;
+		}
+	}
+	return false;
+	
+}
 
 void Controller::sendrangetohelper(unsigned id, uint32_t indrange ){
-	std::cout<<"\n thread "<< id <<"is starting" << indrange;
+	
+	std::cout<<"\n thread "<< id <<"is starting from " << id*indrange ;
+	
 	responses[id] = helpers[id].minenozk(id*indrange, indrange, DIFFICULTY, *currentblock,starttime);
+	
+	while(!hashFound()){
+		std::cout<<"\n thread "<< id <<"is starting again from " << currentstart*indrange;
+		//races alert
+		mutex.lock();
+		currentstart++;
+		mutex.unlock();
+		responses[id] = helpers[id].minenozk(currentstart*indrange, indrange, DIFFICULTY, *currentblock,starttime);
+		
+		
+	}
+	
+
 }
 
 
@@ -98,11 +134,12 @@ void Controller::zkp_startMining(){
     
 	
 	currentblock = new Block(_vChain.size(), "next block in being mined");
+	currentstart =0;
 	int n = getnofhelpers();
 	long range = powl(2,DIFFICULTY+10);
-	long indrange = ceil (range*1.0 /n*1.0);
+	long indrange = 128;//ceil (range*1.0 /n*1.0);
 	for (unsigned i =0 ; i < n ; i++){
-		
+		currentstart++;
 		helperths.push_back(std::thread(&Controller::zkp_sendrangetohelper,this,i,indrange)); 
 	}
 	
@@ -160,6 +197,19 @@ void Controller::zkp_sendrangetohelper(unsigned id, uint32_t indrange ){
 	//verify the proof
 	bool verified = r1cs_ppzksnark_verifier_strong_IC<default_r1cs_ppzksnark_pp>(keypair.vk, pb.primary_input(), helpers[id].proof);
 	cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%the proof is "<< verified;
+	
+	while(!hashFound()){
+		std::cout<<"\n thread "<< id <<"is starting again from " << currentstart*indrange;
+		//races alert
+		mutex.lock();
+		currentstart++;
+		mutex.unlock();
+		responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, keypair.pk,starttime);
+	
+		
+	}
+	
+
 }
 Block Controller::_GetLastBlock() const{
 	

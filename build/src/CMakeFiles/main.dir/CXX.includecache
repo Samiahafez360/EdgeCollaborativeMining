@@ -1201,6 +1201,8 @@ iostream
 -
 chrono
 -
+mutex
+-
 
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/Controller.h
 cstdint
@@ -1215,6 +1217,8 @@ Block.h
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 ControllerNetworkUtilities.hpp
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/ControllerNetworkUtilities.hpp
+mutex
+-
 Helper.h
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/Helper.h
 

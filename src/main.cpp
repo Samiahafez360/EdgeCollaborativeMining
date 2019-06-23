@@ -68,17 +68,19 @@ void test_one_input() {
 
 
 
-int main (){
+int main (int argc, char* argv[]){
   //libff::print_header("Lets start");
   
 
     //	test_r1cs_gg_ppzksnark<default_r1cs_gg_ppzksnark_pp>(1000, 100);
 	default_r1cs_ppzksnark_pp::init_public_params();
 	//test_one_input();
-	
+	int nofhelpers = atoi(argv[1]);
+	int DIFFICULTY = atoi(argv[2]);
+	int zk = atoi(argv[3]);
 	cout<<"hello";
-	Controller c;
-	c.updateHelpers();
+	Controller c(DIFFICULTY);
+	for (int i = 0; i<nofhelpers; i++) c.updateHelpers();
 	
 	//c.updateHelpers();
 	//c.updateHelpers();
@@ -98,7 +100,8 @@ int main (){
 	//c.startMining();
 	//c.startMining();
 	//c.startMining();
-	c.zkp_startMining();
+	if (zk==1) c.zkp_startMining();
+	if (zk==0) c.startMining();
 	
 	auto end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end-start;
