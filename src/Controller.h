@@ -13,6 +13,7 @@
 #include "Helper.h"
 
 using namespace std;
+using namespace libsnark;
 
 class Controller {
 	
@@ -35,7 +36,7 @@ private:
 	std::mutex mutex;
 	bool hashFound();
 	void sendrangetohelper(unsigned id, uint32_t indrange );
-    void zkp_sendrangetohelper(unsigned id, uint32_t indrange );
+    void zkp_sendrangetohelper(unsigned id, uint32_t indrange, r1cs_ppzksnark_proving_key<default_r1cs_ppzksnark_pp> pk );
     
 	ControllerNetworkUtilities* netutils;
     uint32_t _nDifficulty;

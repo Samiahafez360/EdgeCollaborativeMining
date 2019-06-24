@@ -1,0 +1,683 @@
+hellochoose one0x7ffeb461fa70started computation at Mon Jun 24 12:37:18 2019
+started mining at Mon Jun 24 12:37:18 2019
+choose one0x7ffeb461fad0
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ thread 3is starting from 3072
+ thread 4is starting from 4096
+ thread 5is starting from 5120
+ thread 6is starting from 6144
+ thread 7is starting from 7168
+ thread 8is starting from 8192
+ thread 9is starting from 9216
+ thread 10is starting from 10240
+ thread 11is starting from 11264
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 12288
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 13312
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 14336
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 15360
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 16384
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 17408
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 18432
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 19456
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 20480
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 21504
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 22528
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 23552
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 24576
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 25600
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 26624
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 27648
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 28672
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 29696
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 30720
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 31744
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 32768
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 33792
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 34816
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 35840
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 36864
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 37888
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 38912
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 39936
+ not FOOOOUUUUNNNNNNDDDD
+ thread 
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 409600is starting again from 40960
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 43008
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 44032
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 45056
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 46080
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 47104
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 48128
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 49152
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 50176
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 51200
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 52224
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 53248
+ thread 1is starting again from 54272
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 55296
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 56320
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 57344
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 58368
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 59392
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 60416
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 61440
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 62464
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 63488
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 64512
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 65536
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 66560
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 67584
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 68608
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 69632
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 70656
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 71680
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 72704
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 73728
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 74752
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 75776
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 76800
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 77824
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 78848
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 79872
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 80896
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 81920
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 82944
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 83968
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 84992
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 86016
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 87040
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 88064
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 89088
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 90112
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 91136
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 92160
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 93184
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 94208
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 95232
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 96256
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 97280
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 98304
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 99328
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 100352
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 101376
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 102400
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 103424
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 104448
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 105472
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 106496
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 107520
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 108544
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 109568
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 110592
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 111616
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 112640
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 113664
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 114688
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 115712
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 116736
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 117760
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 118784
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 119808
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 120832
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 121856
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 122880
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 123904
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 124928
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 125952
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 126976
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 128000
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 129024
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 130048
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 131072
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 132096
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 133120
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 134144
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 135168
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 136192
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 137216
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 138240
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 139264
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 140288
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 141312
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 142336
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 143360
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 144384
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 145408
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 146432
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 147456
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 148480
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 149504
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 150528
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 151552
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 152576
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 153600
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 154624
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 155648
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 156672
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 157696
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 158720
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 159744
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 160768
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 161792
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 162816
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 163840
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 164864
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 165888
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 166912
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 167936
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 168960
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 169984
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 171008
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 172032
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 173056
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 174080
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 175104
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 176128
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 177152
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 178176
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 179200
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 180224
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 181248
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 182272
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 183296
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 184320
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 185344
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 186368
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 187392
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 188416
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 189440
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 190464
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 191488
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 192512
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 193536
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 194560
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 195584
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 196608
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 197632
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 198656
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 199680
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 200704
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 201728
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 202752
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 203776
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 204800
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 205824
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 206848
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 207872
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 208896
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 209920
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 210944
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 211968
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 212992
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 214016
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 215040
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 216064
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 217088
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 218112
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 219136
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 220160
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 221184
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 222208
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 223232
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 224256
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 225280
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 226304
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 227328
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 228352
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 229376
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 230400
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 231424
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 232448
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 233472
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 234496
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 235520
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 236544
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 237568
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 238592
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 239616
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 240640
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 241664
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 242688
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 243712
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 244736
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 245760
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 246784
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 247808
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 248832
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 249856
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 250880
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 251904
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 252928
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 253952
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 254976
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 256000
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 257024
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 258048
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 259072
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 260096
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 261120
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 262144
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 263168
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 264192
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 265216
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 266240
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 267264
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 268288
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 269312
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 270336
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 271360
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 272384
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 273408
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 274432
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 275456
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 276480
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 277504
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 278528
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 279552
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 280576
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 281600
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 282624
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 283648
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 284672
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 285696
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 286720
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 287744
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 288768
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 289792
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 290816
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 291840
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 292864
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 293888
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 294912
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 295936
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 296960
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 297984
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 299008
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 300032
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 301056
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 302080
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 303104
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 304128
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 305152
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 306176
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 307200
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 308224
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 309248
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 310272
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 311296
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 312320
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 313344
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 314368
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 315392
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 316416
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 317440
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 318464
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 319488
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 320512
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 321536
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 322560
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 323584
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 324608
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 325632
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 326656
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 327680
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 328704
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 329728
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 330752
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 331776
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 332800
+ not FOOOOUUUUNNNNNNDDDD
+ thread 3is starting again from 333824
+ not FOOOOUUUUNNNNNNDDDD
+ thread 7is starting again from 334848
+ not FOOOOUUUUNNNNNNDDDD
+ thread 6is starting again from 335872
+ not FOOOOUUUUNNNNNNDDDD
+ thread 4is starting again from 336896
+ not FOOOOUUUUNNNNNNDDDD
+ thread 11is starting again from 337920
+ not FOOOOUUUUNNNNNNDDDD
+ thread 2is starting again from 338944
+ not FOOOOUUUUNNNNNNDDDD
+ thread 0is starting again from 339968
+ not FOOOOUUUUNNNNNNDDDD
+ thread 8is starting again from 340992
+ not FOOOOUUUUNNNNNNDDDD
+ thread 10is starting again from 342016
+ not FOOOOUUUUNNNNNNDDDD
+ thread 1is starting again from 343040
+ not FOOOOUUUUNNNNNNDDDD
+ thread 5is starting again from 344064
+ not FOOOOUUUUNNNNNNDDDD
+ thread 9is starting again from 345088
+ FOOOOUUUUNNNNNNDDDDDDDD after903trials336775
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 9.38007s
+
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDD
+ not FOOOOUUUUNNNNNNDDDDwe found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:37:27 2019
+elapsed time: 9.5574s

@@ -1,0 +1,540 @@
+________________________________________________________________
+hellochoose one0x7ffe45d10d50started computation at Mon Jun 24 12:13:07 2019
+started mining at Mon Jun 24 12:13:07 2019
+choose one0x7ffe45d10db0
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 8is starting from 8192
+ FOOOOUUUUNNNNNNDDDDDDDD after143trials8335
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0111422s
+
+ thread 9is starting from 9216
+ FOOOOUUUUNNNNNNDDDDDDDD after18trials9234
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0116759s
+
+ thread 7is starting from 7168
+ FOOOOUUUUNNNNNNDDDDDDDD after149trials149
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0139232s
+
+ thread 10is starting from 10240
+ thread 11is starting from 11264
+ thread 6is starting from 6144
+ thread 5is starting from 5120
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after74trials1098
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0286023s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after75trials4171
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0300382s
+
+ thread 3is starting from 3072
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after235trials11499
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.039603s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after141trials6285
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0407912s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after161trials3233
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0454515s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after321trials5441
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0504919s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after203trials2251
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0535862s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after329trials7497
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0563406s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after755trials10995
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0681262s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:07 2019
+elapsed time: 0.0682771s
+________________________________________________________________
+hellochoose one0x7ffe19aa85e0started computation at Mon Jun 24 12:13:07 2019
+started mining at Mon Jun 24 12:13:07 2019
+choose one0x7ffe19aa8640
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after149trials149
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00383984s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after203trials2251
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 
+ FOOOOUUUUNNNNNNDDDDDDDD after74trials1098
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0145756s
+0.00922602s
+
+ thread 11is starting from 11264
+ thread 8is starting from 8192
+ thread 9is starting from 9216
+ thread 7is starting from 7168
+ FOOOOUUUUNNNNNNDDDDDDDD after18trials9234
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0195189s
+
+ thread 10is starting from 10240
+ thread 6is starting from 6144
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after141trials6285
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0336935s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after143trials8335
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.034759s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after161trials3233
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0386907s
+
+ thread 5is starting from 5120
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after75trials4171
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0487088s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after235trials11499
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0528956s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after321trials5441
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0588729s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after329trials7497
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0606911s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after755trials10995
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0619419s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:07 2019
+elapsed time: 0.0622334s
+________________________________________________________________
+hellochoose one0x7ffcdb9e8ec0started computation at Mon Jun 24 12:13:07 2019
+started mining at Mon Jun 24 12:13:07 2019
+choose one0x7ffcdb9e8f20
+ thread 0is starting from 0
+ thread 2is starting from 2048
+ thread 1is starting from 1024
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after149trials149
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00474054s
+
+ thread 5is starting from 5120
+ FOOOOUUUUNNNNNNDDDDDDDD after74trials1098
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00667008s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after203trials2251
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0187999s
+
+ thread 6is starting from 6144
+ FOOOOUUUUNNNNNNDDDDDDDD after161trials3233
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0237102s
+
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after75trials4171
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.02577s
+
+ thread 7is starting from 7168
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after141trials6285
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0436017s
+
+ thread 8is starting from 8192
+ thread 9is starting from 9216
+ thread 10is starting from 10240
+ FOOOOUUUUNNNNNNDDDDDDDD after18trials9234
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0565304s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after143trials8335
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0636303s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after235trials11499
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0709911s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after329trials7497
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.075246s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after321trials5441
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0753444s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after755trials10995
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0929412s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:07 2019
+elapsed time: 0.0931334s
+________________________________________________________________
+hellochoose one0x7ffe9e309d70started computation at Mon Jun 24 12:13:07 2019
+started mining at Mon Jun 24 12:13:07 2019
+choose one0x7ffe9e309dd0
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after149trials149
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00830261s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after203trials2251
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0143592s
+
+ thread 8is starting from 8192
+ FOOOOUUUUNNNNNNDDDDDDDD after74trials1098
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0147865s
+
+ thread 3is starting from 3072
+ thread 9is starting from 9216
+ FOOOOUUUUNNNNNNDDDDDDDD after18trials9234
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0173246s
+
+ thread 11is starting from 11264
+ thread 10is starting from 10240
+ thread 
+ FOOOOUUUUNNNNNNDDDDDDDD after161trials3233
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0235344s
+
+ thread 6is starting from 6144
+ thread 5is starting from 51207is starting from 7168
+ FOOOOUUUUNNNNNNDDDDDDDD after329trials7497
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0563354s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after235trials11499
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0574753s
+
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after143trials8335
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0701391s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after141trials6285
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.072384s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after75trials4171
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0815011s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after321trials5441
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0831545s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after755trials10995
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0879937s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0881717s
+________________________________________________________________
+hellochoose one0x7ffd22c6b3a0started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffd22c6b400
+ thread 6is starting from 6144
+ thread 7is starting from 7168
+ thread 8is starting from 8192
+ thread 9is starting from 9216
+ thread 10is starting from 10240
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00729726s
+
+ thread 5is starting from 5120
+ thread 4is starting from 4096
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.012249s
+
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0228847s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0303086s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0347419s
+
+ thread 1is starting from 1024
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0380713s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0405093s
+
+ thread 0is starting from 0
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0462509s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0533629s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0536898s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0707731s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0793446s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0795778s
+________________________________________________________________
+hellochoose one0x7ffef55a42c0started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffef55a4320
+ thread 0is starting from 0
+ thread 6is starting from 6144
+ thread 5is starting from 5120
+ thread 4is starting from 4096
+ thread 7is starting from 7168
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00353469s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0107619s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0116337s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0119244s
+
+ thread 9is starting from 9216
+ thread 8is starting from 8192
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0204181s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0209773s
+
+ thread 10is starting from 10240
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0284833s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0327103s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0353768s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0456311s
+
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0463124s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0505382s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0510349s
+________________________________________________________________
+hellochoose one0x7ffc5e544c60started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffc5e544cc0
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 
+ thread 3is starting from 30720.00245243s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00898141s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.009778s
+
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0101332s
+
+ thread 10is starting from 10240
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0134349s
+
+ thread 4is starting from 4096
+ thread 9is starting from 9216
+ thread 5is starting from 5120
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0205548s
+
+ thread 6is starting from 6144
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0235214s
+
+ thread 7is starting from 7168
+ thread 8is starting from 8192
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0304218s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0313449s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0323818s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0325908s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0344385s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0347406s
+________________________________________________________________
+hellochoose one0x7ffe47510070started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffe475100d0
+ thread 7is starting from 7168
+ thread 
+ thread 9is starting from 92168is starting from 8192
+ thread 6is starting from 6144
+ thread 10is starting from 10240
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0129946s
+
+ thread 5is starting from 5120
+ thread 4is starting from 4096
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0179345s
+
+ thread 0is starting from 0
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0200644s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0229028s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0240093s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0281428s
+
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0296642s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0304254s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0396829s
+
+ thread 1is starting from 1024
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0445566s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0458968s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0556042s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0559231s
+________________________________________________________________
+hellochoose one0x7ffd531e01f0started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffd531e0250
+ thread 0is starting from 0
+ thread 1is starting from 1024
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00256672s
+
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00774375s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.00907334s
+
+ thread 10is starting from 10240
+ thread 9is starting from 9216
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.011581s
+
+ thread 11is starting from 11264
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0119028s
+
+ thread 6is starting from 6144
+ thread 8is starting from 8192
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0153782s
+
+ thread 7is starting from 7168
+ thread 5is starting from 5120
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.018868s
+
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0214589s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0273329s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0322679s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0342839s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0425805s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0428997s
+________________________________________________________________
+hellochoose one0x7ffdd8dc6ca0started computation at Mon Jun 24 12:13:08 2019
+started mining at Mon Jun 24 12:13:08 2019
+choose one0x7ffdd8dc6d00
+ thread 8is starting from 8192
+ thread 9is starting from 9216
+ thread 10is starting from 10240
+ thread 11is starting from 11264
+ thread 7is starting from 7168
+ FOOOOUUUUNNNNNNDDDDDDDD after6trials11270
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0098725s
+
+ thread 6is starting from 6144
+ thread 5is starting from 5120
+ thread 0is starting from 0
+ FOOOOUUUUNNNNNNDDDDDDDD after77trials77
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0160105s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after98trials6242
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0167644s
+
+ thread 4is starting from 4096
+ FOOOOUUUUNNNNNNDDDDDDDD after95trials8287
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.021128s
+
+ thread 1is starting from 1024
+ thread 3is starting from 3072
+ FOOOOUUUUNNNNNNDDDDDDDD after10trials3082
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0279198s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after91trials10331
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0281381s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after179trials4275
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0366263s
+
+ thread 2is starting from 2048
+ FOOOOUUUUNNNNNNDDDDDDDD after495trials1519
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0440826s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after118trials5238
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0454282s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after285trials7453
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0473093s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after223trials2271
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0487312s
+
+ FOOOOUUUUNNNNNNDDDDDDDD after597trials9813
+^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at elapsed time: 0.0539436s
+we found the blockadding the blockfoo and bar completed.
+finished computation at Mon Jun 24 12:13:08 2019
+elapsed time: 0.0542406s

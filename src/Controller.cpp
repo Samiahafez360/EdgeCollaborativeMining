@@ -65,7 +65,7 @@ void Controller::startMining(){
 	currentblock = new Block(_vChain.size(), "next block in being mined");
 	int n = getnofhelpers();
 	long range = powl(2,DIFFICULTY*3+5);
-	long indrange = 1024;//ceil (range*1.0 /n*1.0);
+	long indrange = 4096;//ceil (range*1.0 /n*1.0);
 	currentstart = 0;
 	for (unsigned i =0 ; i < n ; i++){
 		helperths.push_back(std::thread(&Controller::sendrangetohelper,this,i,indrange)); 
@@ -124,6 +124,7 @@ void Controller::sendrangetohelper(unsigned id, uint32_t indrange ){
 }
 
 
+typedef libff::Fr<default_r1cs_ppzksnark_pp> FieldT;
 
 void Controller::zkp_startMining(){
 	
@@ -137,10 +138,25 @@ void Controller::zkp_startMining(){
 	currentstart =0;
 	int n = getnofhelpers();
 	long range = powl(2,DIFFICULTY+10);
-	long indrange = 128;//ceil (range*1.0 /n*1.0);
+	long indrange = 4096;//ceil (range*1.0 /n*1.0);
+				
+	protoboard<FieldT> pb;
+	
+    block_variable<FieldT>  input(pb, SHA256_block_size, "input");
+    digest_variable<FieldT> output(pb, SHA256_digest_size, "output");
+    sha256_two_to_one_hash_gadget<FieldT> sha256_gadget(pb, SHA256_block_size, input, output, "hash_gadget");
+	
+    sha256_gadget.generate_r1cs_constraints();
+
+    
+    const auto constraint_system = pb.get_constraint_system();
+
+    // Create keypair
+    auto keypair = r1cs_ppzksnark_generator<default_r1cs_ppzksnark_pp>(constraint_system);
+
 	for (unsigned i =0 ; i < n ; i++){
 		currentstart++;
-		helperths.push_back(std::thread(&Controller::zkp_sendrangetohelper,this,i,indrange)); 
+		helperths.push_back(std::thread(&Controller::zkp_sendrangetohelper,this,i,indrange,keypair.pk)); 
 	}
 	
 	
@@ -164,39 +180,23 @@ void Controller::zkp_startMining(){
 }
 
 
-typedef libff::Fr<default_r1cs_ppzksnark_pp> FieldT;
 
-void Controller::zkp_sendrangetohelper(unsigned id, uint32_t indrange ){
+void Controller::zkp_sendrangetohelper(unsigned id, uint32_t indrange ,r1cs_ppzksnark_proving_key<default_r1cs_ppzksnark_pp> pk){
 	//generate the keys
 	
 	
 	
-	protoboard<FieldT> pb;
-	
-    block_variable<FieldT>  input(pb, SHA256_block_size, "input");
-    digest_variable<FieldT> output(pb, SHA256_digest_size, "output");
-    sha256_two_to_one_hash_gadget<FieldT> sha256_gadget(pb, SHA256_block_size, input, output, "hash_gadget");
-	std::cout<<"\n thread "<< id <<"is starting" ;
-	
-    sha256_gadget.generate_r1cs_constraints();
-
-    
-    const auto constraint_system = pb.get_constraint_system();
-
-    // Create keypair
-    auto keypair = r1cs_ppzksnark_generator<default_r1cs_ppzksnark_pp>(constraint_system);
-
 	std::cout<<"\n thread "<< id <<"is starting" ;
 	
 	//const auto proof;
 	Block* b= new Block(currentblock->_nIndex, currentblock->_sData);
 	b->_tTime = currentblock->_tTime;
 	b->sHash= b->_CalculateHash();
-	responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, keypair.pk,starttime);
+	responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, pk,starttime);
 	
 	//verify the proof
-	bool verified = r1cs_ppzksnark_verifier_strong_IC<default_r1cs_ppzksnark_pp>(keypair.vk, pb.primary_input(), helpers[id].proof);
-	cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%the proof is "<< verified;
+	//bool verified = r1cs_ppzksnark_verifier_strong_IC<default_r1cs_ppzksnark_pp>(keypair.vk, pb.primary_input(), helpers[id].proof);
+	//cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%the proof is "<< verified;
 	
 	while(!hashFound()){
 		std::cout<<"\n thread "<< id <<"is starting again from " << currentstart*indrange;
@@ -204,7 +204,7 @@ void Controller::zkp_sendrangetohelper(unsigned id, uint32_t indrange ){
 		mutex.lock();
 		currentstart++;
 		mutex.unlock();
-		responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, keypair.pk,starttime);
+		responses[id] = helpers[id].minezk(id*indrange, indrange, DIFFICULTY, *b, pk,starttime);
 	
 		
 	}

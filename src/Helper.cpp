@@ -27,7 +27,8 @@ int Helper::minenozk(uint32_t _sNonce, uint32_t range, uint32_t nDifficulty,Bloc
 			auto end = std::chrono::system_clock::now();
 			
 			std::chrono::duration<double> elapsed_seconds = end-starttime;
-        	std::cout << "^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at " << "elapsed time: " << elapsed_seconds.count() << "s\n";
+        	std::cout<< sHash<< "\n";
+			std::cout << "^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at " << "elapsed time: " << elapsed_seconds.count() << "s\n";
 			return _nNonce-1;
 		}
     }
