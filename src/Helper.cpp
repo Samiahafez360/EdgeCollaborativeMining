@@ -72,13 +72,17 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 	string str(cstr);
 	uint32_t _nNonce = start;
 	string sHash;
+	stringstream ss;
+	std::vector<bool> myVec;
+	std::vector<bool> myhashVec;
+	r1cs_ppzksnark_proof<default_r1cs_ppzksnark_pp> proof;
     do
     {
 		
-		libff::print_header("Mining loooooooooppppp");
-		
-		stringstream ss;
-		std::cout << "\nprepare the stream\n";
+	
+		std::cout << "\n===========================================\n";
+		std::cout << "\n===============" << start<<"===============\n";
+		std::cout << "\n===========================================\n";
 	
 		ss << mBlock._nIndex << mBlock.sPrevHash << mBlock._tTime << mBlock._sData << _nNonce;
     
@@ -86,12 +90,12 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 		
 		std::cout << "\nwitnessing \n";
 	
-		std::vector<bool> myVec;
+		
 		for(auto a : ss.str()) myVec.push_back(a =='1');
 		const libff::bit_vector input_bv = myVec;
 		input.generate_r1cs_witness(input_bv);
     
-		std::vector<bool> myhashVec;
+		
 		for(auto a : sHash) myhashVec.push_back(a =='1');
 		const libff::bit_vector hash_bv =myhashVec;
 		output.generate_r1cs_witness(hash_bv);
@@ -100,8 +104,8 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 		_nNonce++;
 		std::cout << "\nProving\n";
 	
-		r1cs_ppzksnark_proof<default_r1cs_ppzksnark_pp> proof = r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
-		proof.print_size();
+		proof = r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
+		
 		std::cout << "\n end Proving\n";
 		if (sHash.substr(0, nDifficulty) == str){
 			cout<<"\n FOOOOUUUUNNNNNNDDDDDDDD after"<<_nNonce-start<< "trials" <<_nNonce<<"\n";
@@ -113,6 +117,11 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 			
 			return _nNonce-1;
 		}
+		ss.str(std::string());
+		sHash.clear();
+		myVec.clear();
+		myhashVec.clear();
+		
     }
     while (start+range >= _nNonce);
 	cout<<"\n not FOOOOUUUUNNNNNNDDDD";

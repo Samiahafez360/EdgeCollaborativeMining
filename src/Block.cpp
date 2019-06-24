@@ -4,7 +4,7 @@
 
 #include "Block.h"
 #include "sha256.h"
-
+#include <mutex>
  Block::Block(uint32_t nIndexIn, const string &sDataIn) : _nIndex(nIndexIn), _sData(sDataIn)
 {
     _nNonce = 0;

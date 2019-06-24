@@ -1157,6 +1157,8 @@ Block.h
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 sha256.h
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/sha256.h
+mutex
+-
 
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/Block.h
 cstdint
