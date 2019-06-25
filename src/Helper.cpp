@@ -104,7 +104,7 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 		_nNonce++;
 		std::cout << "\nProving\n";
 	
-		//proof = r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
+		r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
 		
 		std::cout << "\n end Proving\n";
 		if (sHash.substr(0, nDifficulty) == str){
