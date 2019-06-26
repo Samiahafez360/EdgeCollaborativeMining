@@ -19,8 +19,16 @@ int Helper::minenozk(uint32_t _sNonce, uint32_t range, uint32_t nDifficulty,Bloc
 	string sHash;
     do
     {
+		auto startloop = std::chrono::system_clock::now();
+	
         sHash = _CalculateHash(mBlock._nIndex, _nNonce,mBlock.sPrevHash,mBlock._tTime,mBlock._sData);
 		_nNonce++;
+		auto endloop = std::chrono::system_clock::now();
+		
+		std::cout << "\n end Proving\n";
+		std::chrono::duration<double> elapsed_seconds = endloop-startloop;
+		std::cout << "@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished LOOP computation at " << "elapsed time: " << elapsed_seconds.count() << "s\n";
+		
 		if (sHash.substr(0, nDifficulty) == str){
 			cout<<"\n FOOOOUUUUNNNNNNDDDDDDDD after"<<_nNonce-_sNonce<< "trials" <<_nNonce<<"\n";
 			
@@ -31,7 +39,8 @@ int Helper::minenozk(uint32_t _sNonce, uint32_t range, uint32_t nDifficulty,Bloc
 			std::cout << "^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished computation at " << "elapsed time: " << elapsed_seconds.count() << "s\n";
 			return _nNonce-1;
 		}
-    }
+    
+	}
     while (_sNonce+range >= _nNonce);
 	cout<<"\n not FOOOOUUUUNNNNNNDDDD";
     return -1;
@@ -76,9 +85,11 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 	std::vector<bool> myVec;
 	std::vector<bool> myhashVec;
 	r1cs_ppzksnark_proof<default_r1cs_ppzksnark_pp> proof;
+	bool prooftimecalc = false;
+	std::chrono::duration<double> elapsed_proof;
     do
     {
-		
+		auto startloop = std::chrono::system_clock::now();
 	
 		std::cout << "\n===========================================\n";
 		std::cout << "\n===============" << start<<"===============\n";
@@ -104,9 +115,25 @@ int Helper::minezk(uint32_t start, uint32_t range,uint32_t nDifficulty,Block mBl
 		_nNonce++;
 		std::cout << "\nProving\n";
 	
-		r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
+		if (! prooftimecalc){
+		
+			auto beforeproving = std::chrono::system_clock::now();
+			r1cs_ppzksnark_prover<default_r1cs_ppzksnark_pp>(pk, pb.primary_input(), pb.auxiliary_input());
+			auto afterproving = std::chrono::system_clock::now();
+			elapsed_proof = afterproving-beforeproving;
+			prooftimecalc = true;
+		
+		}else {
+			std::this_thread::sleep_for(elapsed_proof);
+		}
+		
+		
+		auto endloop = std::chrono::system_clock::now();
 		
 		std::cout << "\n end Proving\n";
+		std::chrono::duration<double> elapsed_seconds = endloop-startloop;
+		std::cout << "@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%finished LOOP computation at " << "elapsed time: " << elapsed_seconds.count() << "s\n";
+			
 		if (sHash.substr(0, nDifficulty) == str){
 			cout<<"\n FOOOOUUUUNNNNNNDDDDDDDD after"<<_nNonce-start<< "trials" <<_nNonce<<"\n";
 			

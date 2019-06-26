@@ -1285,6 +1285,8 @@ string
 -
 chrono
 -
+thread
+-
 
 /home/samia/locallibsnark/EdgeCollaborativeMining/src/main.cpp
 libff/common/default_types/ec_pp.hpp

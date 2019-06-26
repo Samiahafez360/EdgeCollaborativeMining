@@ -22,7 +22,9 @@
 #include <libsnark/gadgetlib1/protoboard.hpp>
 #include <string>
 #include <chrono>
+#include <thread>
 using namespace libsnark;
+using namespace std; 
 class Helper {
 public:
 	//Helper();

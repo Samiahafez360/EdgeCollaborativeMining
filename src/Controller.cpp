@@ -51,22 +51,33 @@ int Controller::getnofhelpers(){
 
 void Controller::startMining(){
 	
+	starttime = std::chrono::system_clock::now();
+	
 	for (unsigned i =0 ; i < getnofhelpers(); i++){
 		responses[i]= 0;
 	}
 	
 	
 	
-	starttime = std::chrono::system_clock::now();
-    std::time_t start_time = std::chrono::system_clock::to_time_t(starttime);
-
-    std::cout << "started mining at " << std::ctime(&start_time);
-    
+	
 	currentblock = new Block(_vChain.size(), "next block in being mined");
 	int n = getnofhelpers();
 	long range = powl(2,DIFFICULTY*3+5);
 	long indrange = 4096;//ceil (range*1.0 /n*1.0);
 	currentstart = 0;
+	
+	auto endtime = std::chrono::system_clock::now();
+    
+
+	std::chrono::duration<double> elapsed_seconds = endtime-starttime;
+	std::cout << "\n =============================\nPrep " << "elapsed time: " << elapsed_seconds.count() << "s\n============================================\n";
+	std::time_t start_time = std::chrono::system_clock::to_time_t(endtime);
+		
+    std::cout << "Prep finished  " << std::ctime(&start_time);
+    
+		
+	std::cout << "started mining at " << std::ctime(&start_time);
+    
 	for (unsigned i =0 ; i < n ; i++){
 		helperths.push_back(std::thread(&Controller::sendrangetohelper,this,i,indrange)); 
 		currentstart++;
@@ -129,9 +140,9 @@ typedef libff::Fr<default_r1cs_ppzksnark_pp> FieldT;
 void Controller::zkp_startMining(){
 	
 	starttime = std::chrono::system_clock::now();
-    std::time_t start_time = std::chrono::system_clock::to_time_t(starttime);
+    std::time_t start_prep_time = std::chrono::system_clock::to_time_t(starttime);
 
-    std::cout << "started mining at " << std::ctime(&start_time);
+    std::cout << "started prep at " << std::ctime(&start_prep_time);
     
 	
 	currentblock = new Block(_vChain.size(), "next block in being mined");
@@ -153,7 +164,19 @@ void Controller::zkp_startMining(){
 
     // Create keypair
     auto keypair = r1cs_ppzksnark_generator<default_r1cs_ppzksnark_pp>(constraint_system);
+	
+	
+	auto endtime = std::chrono::system_clock::now();
+    
+	start_prep_time = std::chrono::system_clock::to_time_t(endtime);
 
+	std::chrono::duration<double> elapsed_seconds = endtime- starttime;
+	std::cout << "\n =============================\nPrep " << "elapsed time: " << elapsed_seconds.count() << "s\n============================================\n";
+			
+    std::cout << "Prep finished  " << std::ctime(&start_prep_time);
+    
+	starttime = std::chrono::system_clock::now();
+	
 	for (unsigned i =0 ; i < n ; i++){
 		currentstart++;
 		helperths.push_back(std::thread(&Controller::zkp_sendrangetohelper,this,i,indrange,keypair.pk)); 
